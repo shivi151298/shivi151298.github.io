@@ -127,17 +127,7 @@
 			font-size: 30px;
 			color:lightgray;
 	}
-	     @media only screen and (min-width:321px)
-         {
-            ul{
-               font-size: 20px;
-              
-              }
-        .row{
-            height: 700px;
-            width: 700px;
-            }
-	    }
+	    
 	a:hover
 	{
     color:grey;
