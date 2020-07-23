@@ -7,7 +7,21 @@
        margin-top: 20px;
     
        }
-
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .ul {
+    width: 80%;
+    padding: 0;
+  }
+  .row{
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .ul,.row {
+    width: 100%;
+  }
     ul {       
         position:fixed;
 		list-style-type: none;
